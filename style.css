@@ -1,0 +1,326 @@
+section{
+    display: block;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Logo {
+    width: 300px;
+}
+#navtools {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 400;
+}
+header a {
+    color: cyan;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: large;
+}
+#section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap
+}
+#logo1 {
+    width: 40px;
+    margin-top: 100px;
+}
+#headerp {
+    color: #00b39b;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    padding-top: 20px;
+    text-align: center;
+}
+#twop {
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+    margin-left: 20px;
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#p1 {
+    padding-left: 150px;
+}
+#p2 {
+    padding-right: 150px;
+    padding-left: 30px;
+}
+#patients {
+    background-color: #00ccb1;
+    color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: 10px;
+}
+#pat {
+    width: 20px;
+}
+#doctors {
+    background-color: #2136a8;
+    color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#doc {
+    width: 20px;
+}
+#clin {
+    background-color: darkgray;
+    color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    padding-left: 50px;
+    margin-left: 10px;
+}
+#clinic {
+    width: 20px;
+}
+#section2 {
+    display: flex;
+    justify-content: space-around;
+    font-family: Work Sans,Arial,sans-serif;
+}
+select {
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;  
+}
+#section3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#p {
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-left: 50px;
+}
+#im {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    padding-right: 500px;
+    padding-left: 50px;
+}
+#im img {
+    width: 50px;
+    object-fit: contain;
+}
+#section4 {
+    background-color: #d0faf4;
+
+}
+#h1 {
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-left: 50px;
+}
+#p3 {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #747474;
+    padding-bottom: 50px;
+}
+#im1 {
+    vertical-align: middle;
+}
+.bruh img {
+    width: 25px;
+    height: auto;
+}
+.bruh h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+.bruh p {
+    font-size: 0.8125em;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+}
+.bruh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+.bruh2 img {
+    width: 25px;
+    height: auto;
+}
+.bruh2 h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+.bruh2 p {
+    font-size: 0.8125em;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+}
+.bruh2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+#bruh {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px
+}
+#section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    background-color: #d0faf4;
+    padding-left: 50px;
+}
+#section5 h3 {
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+#section5 p {
+    margin: 1.6em 0;
+    line-height: 1.7142857143;
+    text-align: center;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+}
+#section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    width: 100%;
+}
+#section6 img{
+    border: 0;
+}
+#section6 div{
+    display: flex;
+    justify-content: space-between;
+}
+#section6 p {
+    font-size: medium;
+    color: #747474;
+    font-family: Roboto, Arial, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+button {
+    margin-top: 0.5cm;
+    display: flex;
+    gap: 2cm;
+    justify-content: center;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: Roboto, Arial, sans-serif;
+    margin-right: 20px;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+#section6 nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#section6 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5cm;
+    justify-content: center;
+}
+#section7 button{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-left: 530px;
+}
+#section7 h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+#section7{
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+footer a {
+    color: #3d83df;
+    margin-left: 10px;
+
+}
